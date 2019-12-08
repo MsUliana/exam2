@@ -22,21 +22,6 @@ function openModalMenu() {
     }
 }
 
-
-
-function lll() {
-    console.log('hello');
-}
-// function scrollIcon() {
-//     concole.log('je');
-//     $('html,body').animate({
-//         scrollTop: $(".projects").offset().top
-//     },
-//         'slow');
-// }
-
-
-
 $('.news-slider').slick({
     autoplay: true,
     autoplaySpeed: 4000,

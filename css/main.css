@@ -43,7 +43,7 @@
     letter-spacing: 5.4px;
     padding-bottom: 230px; }
   .slide .scroll-icon {
-    padding-bottom: 49px;
+    margin-bottom: 49px;
     background: none;
     border: none;
     z-index: 1111; }
@@ -154,6 +154,10 @@
     font-size: 32px; }
     .navigation .menu-toggle-btn .icon {
       color: white !important; }
+
+@media screen and (max-width: 510px) {
+  .navigation img {
+    width: 160px !important; } }
 
 .mobile-menu {
   display: none; }
@@ -367,6 +371,16 @@
       margin-right: -80px; }
     .latest-news .news-slider .slickPrev {
       margin-left: -80px; }
+
+@media screen and (max-width: 1127px) {
+  .slickNext {
+    margin-right: -40px !important; }
+  .slickPrev {
+    margin-left: -40px !important; } }
+
+@media screen and (max-width: 620px) {
+  .slickArrow {
+    display: none !important; } }
 
 .gallery .gallery-line {
   width: 100px;
