@@ -15,10 +15,10 @@
 
 @mixin btn-text-style {
     color: #2c4058;
-    font-family: 'Gotham-Book';
+    font-family: 'Gotham';
     font-size: 14px;
     font-weight: 400;
-    line-height: 50px;
+    // line-height: 50px;
     text-transform: uppercase;
 }
 
@@ -188,7 +188,8 @@
         }
         .navigation-item {
             color: #ffffff;
-            font-family: 'Gotham-Book';
+            font-family: 'Gotham';
+            letter-spacing: 1px;
             font-size: 14px;
             font-weight: 400;
             text-transform: uppercase;

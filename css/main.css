@@ -114,7 +114,8 @@
       align-items: center; }
     .navigation .menu .navigation-item {
       color: #ffffff;
-      font-family: 'Gotham-Book';
+      font-family: 'Gotham';
+      letter-spacing: 1px;
       font-size: 14px;
       font-weight: 400;
       text-transform: uppercase;
@@ -224,10 +225,9 @@
     border: 1px solid #2c4058;
     background: none;
     color: #2c4058;
-    font-family: 'Gotham-Book';
+    font-family: 'Gotham';
     font-size: 14px;
     font-weight: 400;
-    line-height: 50px;
     text-transform: uppercase; }
     .projects .project-btn button:hover {
       color: white;
@@ -427,10 +427,9 @@
   text-align: center; }
   .gallery .gallery-btn .btn-more {
     color: #2c4058;
-    font-family: 'Gotham-Book';
+    font-family: 'Gotham';
     font-size: 14px;
     font-weight: 400;
-    line-height: 50px;
     text-transform: uppercase;
     width: 190px;
     height: 50px;
