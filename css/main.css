@@ -107,27 +107,30 @@
   z-index: 99; }
   .navigation .logo {
     color: black; }
-  .navigation .menu .navigation-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-family: 'Gotham-Book';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-transform: uppercase;
-    text-decoration: none; }
-    .navigation .menu .navigation-item:hover {
-      color: rgba(255, 255, 255, 0.5); }
-    .navigation .menu .navigation-item .small-circle {
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      border: 1px solid white;
-      margin-right: 15px; }
-    .navigation .menu .navigation-item:hover .small-circle {
-      background-color: white; }
+  .navigation .menu {
+    height: 22px; }
+    .navigation .menu .nav-item {
+      display: flex;
+      align-items: center; }
+    .navigation .menu .navigation-item {
+      color: #ffffff;
+      font-family: 'Gotham-Book';
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .navigation .menu .navigation-item:hover {
+        color: rgba(255, 255, 255, 0.5); }
+      .navigation .menu .navigation-item .small-circle {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        border: 1px solid white;
+        margin-right: 15px; }
+      .navigation .menu .navigation-item:hover .small-circle {
+        background-color: white; }
+      .navigation .menu .navigation-item .navigation-item-text {
+        line-height: 22px; }
   .navigation .links {
     display: flex;
     justify-content: space-between; }
@@ -224,7 +227,7 @@
     font-family: 'Gotham-Book';
     font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 50px;
     text-transform: uppercase; }
     .projects .project-btn button:hover {
       color: white;
@@ -427,7 +430,7 @@
     font-family: 'Gotham-Book';
     font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 50px;
     text-transform: uppercase;
     width: 190px;
     height: 50px;
@@ -522,7 +525,7 @@
         font-family: 'Gotham-Book';
         font-size: 14px;
         font-weight: 400;
-        line-height: 22px;
+        line-height: 50px;
         text-transform: uppercase;
         background: none;
         border: 1px solid #2c4058; }

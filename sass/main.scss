@@ -18,7 +18,7 @@
     font-family: 'Gotham-Book';
     font-size: 14px;
     font-weight: 400;
-    line-height: 52px;
+    line-height: 50px;
     text-transform: uppercase;
 }
 
@@ -181,17 +181,16 @@
         color: black;
     }
     .menu {
-        // line-height: 22px;
         height: 22px;
-        .navigation-item {
+        .nav-item {
             display: flex;
-            justify-content: center;
             align-items: center;
+        }
+        .navigation-item {
             color: #ffffff;
             font-family: 'Gotham-Book';
             font-size: 14px;
             font-weight: 400;
-            // line-height: 22px;
             text-transform: uppercase;
             text-decoration: none;
             &:hover {
@@ -668,7 +667,7 @@
                     font-family: 'Gotham-Book';;
                     font-size: 14px;
                     font-weight: 400;
-                    line-height: 22px;
+                    line-height: 50px;
                     text-transform: uppercase;
                     background: none;
                     border: 1px solid #2c4058;
